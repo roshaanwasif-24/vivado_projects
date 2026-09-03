@@ -1,0 +1,12 @@
+`timescale 1ns / 1ps
+
+module register_simple (
+    input  logic        clk, reset,  
+    input  logic [31:0] d,      
+    output logic [31:0] q       
+);
+    always_ff @(posedge clk) begin
+        if (reset) q <= 32'b0;
+        else q <= d;
+    end
+endmodule

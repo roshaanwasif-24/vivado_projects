@@ -1,0 +1,15 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+=== Simulation Complete ===
+x1  = 20
+x2  = 5
+x3  = 15
+x4  = 4
+x5  = 5
+x6  = 5
+x7  = 0
+x8  = 40
+x9  = 0
+x10 = 1
+PASS ALL TYPES
+$finish called at time : 462 ns : File "D:/SingleCycle/SingleCycle.srcs/sim_1/new/TOP_TB.sv" Line 79

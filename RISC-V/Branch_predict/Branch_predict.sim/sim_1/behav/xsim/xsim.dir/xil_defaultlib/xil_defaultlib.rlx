@@ -1,0 +1,26 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sim_1/new/TOP_TB.sv,1783281304,systemVerilog,,,,TOP_TB,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/TOP.sv,1783279146,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/adder_branch.sv,,TOP,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/adder_branch.sv,1783197808,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/adder_pc.sv,,adder_branch,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/adder_pc.sv,1783197796,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/alu.sv,,adder_pc,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/alu.sv,1783197871,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/branch_predictor.sv,,alu,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/branch_predictor.sv,1783197749,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/control_unit.sv,,branch_predictor,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/control_unit.sv,1783197861,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/decode_cycle.sv,,control_unit,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/decode_cycle.sv,1783197914,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/dmem.sv,,decode_cycle,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/dmem.sv,1783197837,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/execution_cycle.sv,,dmem,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/execution_cycle.sv,1783197923,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/fetch_cycle.sv,,execution_cycle,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/fetch_cycle.sv,1783279191,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/forwarding_unit.sv,,fetch_cycle,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/forwarding_unit.sv,1783197887,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/hazard_unit.sv,,forwarding_unit,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/hazard_unit.sv,1783197879,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/imem.sv,,hazard_unit,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/imem.sv,1783280718,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/imm_gen.sv,,imem,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/imm_gen.sv,1783197852,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/memory_cycle.sv,,imm_gen,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/memory_cycle.sv,1783197931,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/mux2.sv,,memory_cycle,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/mux2.sv,1783197764,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/mux3.sv,,mux2,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/mux3.sv,1783197776,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/pc_reg.sv,,mux3,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/pc_reg.sv,1783197787,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/regfile.sv,,pc_reg,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/regfile.sv,1783197845,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/writeback_cycle.sv,,regfile,,,,,,,,
+D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sources_1/new/writeback_cycle.sv,1783197939,systemVerilog,,D:/Vivado _projects/RISC-V/Branch_predict/Branch_predict.srcs/sim_1/new/TOP_TB.sv,,writeback_cycle,,,,,,,,

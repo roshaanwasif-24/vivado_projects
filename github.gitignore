@@ -1,0 +1,15 @@
+# Vivado logs and temp files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.dcp
+
+# Ignore massive generated folders anywhere in the directory tree
+**/.Xil/
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/
+**/*.runs/
+**/*.sim/

@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+PASS PIPELINED MEMORY
+=== Pipelined Simulation Complete ===
+x1  = 20
+x2  = 5
+x3  = 15
+x4  = 4
+x5  = 5
+x6  = 5
+x7  = 0
+x8  = 40
+x9  = 0
+x10 = 1
+PASS REGISTERS & HAZARDS
+$finish called at time : 612 ns : File "/home/pc-49/p/Pipeline/Pipeline.srcs/sim_1/new/TOP_TB.sv" Line 85

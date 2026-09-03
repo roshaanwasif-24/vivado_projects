@@ -1,0 +1,11 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+PASS: sw wrote 8 to address 32 (word 8)
+=== Simulation Complete ===
+x1 = 5 (expected 5)
+x2 = 3 (expected 3)
+x3 = 8 (expected 8)
+x4 = 8 (expected 8)
+x5 = 1 (expected 1)
+PASS: all register values correct
+$finish called at time : 462 ns : File "D:/Vivado _projects/RISC-V/MultiCycle/MultiCycle.srcs/sim_1/new/testbench.sv" Line 45

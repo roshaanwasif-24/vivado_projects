@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado _projects/DLD/DLD.srcs/sources_1/new/whack_a_mole.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module whack_a_mole
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado _projects/DLD/DLD.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

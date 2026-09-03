@@ -1,0 +1,114 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 15264
+License: Customer
+
+Current time: 	Sat Oct 04 02:37:00 PKT 2025
+Time zone: 	Pakistan Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 4 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	rosha
+User home directory: C:/Users/rosha
+User working directory: D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2018.2
+RDI_DATADIR: D:/Vivado/2018.2/data
+RDI_BINDIR: D:/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/rosha/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/rosha/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/rosha/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment/vivado.log
+Vivado journal file location: 	D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment/vivado.jou
+Engine tmp dir: 	D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment/.Xil/Vivado-15264-RoshaanWasif
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Vivado/2018.2
+XILINX_SDK: D:/SDK/2018.2
+XILINX_VIVADO: D:/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/Vivado/2018.2
+
+
+GUI allocated memory:	203 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 539 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 69 MB (+70152kb) [00:00:10]
+// [Engine Memory]: 491 MB (+363547kb) [00:00:10]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: D:\Vivado _projects\Lab_02_Solution\2. HEX_seven_segment\bcd_seven_segment.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment/bcd_seven_segment.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment/bcd_seven_segment.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Laptop/Desktop/Vivado Lab projects/DSD Projects Vivado/bcd_seven_segment' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 35 MB. Current time: 10/4/25 2:37:03 AM PKT
+// [Engine Memory]: 548 MB (+33446kb) [00:00:15]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 576 MB (+920kb) [00:00:16]
+// Project name: bcd_seven_segment; location: D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment; part: xc7a100tcsg324-1
+// [Engine Memory]: 610 MB (+5516kb) [00:00:19]
+// Tcl Message: open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 827.773 ; gain = 79.035 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (bcd_seven_segment.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (bcd_seven_segment.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("bcd_seven_segment.v", 178, 140); // ce (w, ck)
+selectCodeEditor("bcd_seven_segment.v", 2, 78); // ce (w, ck)
+selectCodeEditor("bcd_seven_segment.v", 603, 19); // ce (w, ck)
+typeControlKey((HResource) null, "bcd_seven_segment.v", 'c'); // ce (w, ck)
+// Elapsed time: 20 seconds
+closeMainWindow("bcd_seven_segment - [D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment/bcd_seven_segment.xpr] - Vivado 2018.2"); // ck
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify

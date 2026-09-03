@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Oct  4 02:36:44 2025
+# Process ID: 15264
+# Current directory: D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1200 D:\Vivado _projects\Lab_02_Solution\2. HEX_seven_segment\bcd_seven_segment.xpr
+# Log file: D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment/vivado.log
+# Journal file: D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado _projects/Lab_02_Solution/2. HEX_seven_segment/bcd_seven_segment.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Laptop/Desktop/Vivado Lab projects/DSD Projects Vivado/bcd_seven_segment' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 827.773 ; gain = 79.035
+update_compile_order -fileset sources_1
+exit

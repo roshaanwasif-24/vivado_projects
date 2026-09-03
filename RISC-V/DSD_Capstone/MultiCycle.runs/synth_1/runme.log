@@ -1,0 +1,649 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16460 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 384.574 ; gain = 97.617
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'controller' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/controller.sv:3]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/controller.sv:93]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (1#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/controller.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/datapath.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'register_en' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/register_en.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'register_en' (2#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/register_en.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'register_simple' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/register_simple.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'register_simple' (3#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/register_simple.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/register_file.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (4#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/register_file.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'SignExt' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/SignExt.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'SignExt' (5#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/SignExt.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/ALU.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (6#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/ALU.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (7#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/datapath.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'memorys' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/memorys.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'memorys' (8#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/memorys.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'fir_accelerator_top' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/fir_accelerator_top.sv:3]
+	Parameter ADDR_WIDTH bound to: 32'sb00000000000000000000000000001000 
+	Parameter BUS_WIDTH bound to: 32'sb00000000000000000000000000100000 
+INFO: [Synth 8-6157] synthesizing module 'fir_compiler_0' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.runs/synth_1/.Xil/Vivado-14976-RoshaanWasif/realtime/fir_compiler_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fir_compiler_0' (9#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.runs/synth_1/.Xil/Vivado-14976-RoshaanWasif/realtime/fir_compiler_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fir_accelerator_top' (10#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/fir_accelerator_top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'uart_top' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/uart_top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/uart_tx.sv:3]
+	Parameter CLKS_PER_BIT bound to: 868 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (11#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/uart_tx.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/uart_rx.sv:3]
+	Parameter CLKS_PER_BIT bound to: 868 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (12#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/uart_rx.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'uart_top' (13#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/uart_top.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (14#1) [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/top.sv:3]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[31]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[30]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[29]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[28]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[27]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[26]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[25]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[24]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[23]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[22]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[21]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[20]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[19]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[18]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[17]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[16]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[15]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[14]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[13]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[12]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[11]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[10]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[9]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[8]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[31]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[30]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[29]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[28]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[27]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[26]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[25]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[24]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[23]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[22]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[21]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[20]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[19]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[18]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[17]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[16]
+WARNING: [Synth 8-3331] design datapath has unconnected port MemWrite
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 438.750 ; gain = 151.793
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 438.750 ; gain = 151.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 438.750 ; gain = 151.793
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/ip/fir_compiler_0/fir_compiler_0/fir_compiler_0_in_context.xdc] for cell 'u_fir/u_fir_ip'
+Finished Parsing XDC File [d:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/ip/fir_compiler_0/fir_compiler_0/fir_compiler_0_in_context.xdc] for cell 'u_fir/u_fir_ip'
+Parsing XDC File [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/constrs_1/new/pins.xdc]
+Finished Parsing XDC File [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/constrs_1/new/pins.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/constrs_1/new/pins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 788.504 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 788.504 ; gain = 501.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 788.504 ; gain = 501.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for u_fir/u_fir_ip. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 788.504 ; gain = 501.547
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'controller'
+INFO: [Synth 8-5546] ROM "ImmSrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ALUControl" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PCUpdate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Branch" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ResultSrc" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ALUOp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ALUSrcB" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ALUSrcA" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RegWrite" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IRWrite" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MemWrite" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AdrSrc" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.srcs/sources_1/new/ALU.sv:10]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_tx'
+INFO: [Synth 8-5544] ROM "clk_count" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tx_busy" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_rx'
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   FETCH |                     000000000001 |                             0000
+                  DECODE |                     000000000010 |                             0001
+                  MEMADR |                     000000000100 |                             0010
+                 MEMREAD |                     000000001000 |                             0011
+                   MEMWB |                     000000010000 |                             0100
+                MEMWRITE |                     000000100000 |                             0101
+                EXECUTER |                     000001000000 |                             0110
+                EXECUTEI |                     000010000000 |                             0111
+                     JAL |                     000100000000 |                             1001
+                     BEQ |                     001000000000 |                             1010
+                EXEC_LUI |                     010000000000 |                             1011
+                   ALUWB |                     100000000000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                   START |                               01 |                               01
+                    DATA |                               10 |                               10
+                    STOP |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                   START |                               01 |                               01
+                    DATA |                               10 |                               10
+                    STOP |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_rx'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 788.504 ; gain = 501.547
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 8     
+	               16 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 12    
+	   8 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 3     
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	  12 Input     12 Bit        Muxes := 1     
+	   8 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   7 Input      3 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	  12 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	  12 Input     12 Bit        Muxes := 1     
+	   8 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+	  12 Input      1 Bit        Muxes := 3     
+Module register_en 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module register_simple 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module register_file 
+Detailed RTL Component Info : 
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   8 Input     32 Bit        Muxes := 1     
+Module datapath 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 1     
+Module fir_accelerator_top 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module uart_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+Module uart_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 4     
+Module uart_top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ImmSrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u_rx/state" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[31]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[30]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[29]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[28]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[27]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[26]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[25]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[24]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[23]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[22]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[21]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[20]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[19]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[18]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[17]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[16]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[15]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[14]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[13]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[12]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[11]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[10]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[9]
+WARNING: [Synth 8-3331] design uart_top has unconnected port bus_wdata[8]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[31]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[30]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[29]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[28]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[27]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[26]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[25]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[24]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[23]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[22]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[21]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[20]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[19]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[18]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[17]
+WARNING: [Synth 8-3331] design fir_accelerator_top has unconnected port bus_wdata[16]
+WARNING: [Synth 8-3331] design datapath has unconnected port MemWrite
+INFO: [Synth 8-3886] merging instance 'i_11' (FDRE) to 'dp/instr_reg/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_9' (FDRE) to 'dp/instr_reg/q_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_8' (FDRE) to 'dp/instr_reg/q_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_7' (FDRE) to 'dp/instr_reg/q_reg[18]'
+INFO: [Synth 8-3886] merging instance 'i_6' (FDRE) to 'dp/instr_reg/q_reg[19]'
+INFO: [Synth 8-3886] merging instance 'i_5' (FDRE) to 'dp/instr_reg/q_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_4' (FDRE) to 'dp/instr_reg/q_reg[21]'
+INFO: [Synth 8-3886] merging instance 'i_3' (FDRE) to 'dp/instr_reg/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'i_2' (FDRE) to 'dp/instr_reg/q_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_1' (FDRE) to 'dp/instr_reg/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'u_uart/u_tx/clk_count_reg[13]' (FDCE) to 'u_uart/u_tx/clk_count_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_uart/u_tx/clk_count_reg[15]' (FDCE) to 'u_uart/u_tx/clk_count_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_uart/u_tx/clk_count_reg[14]' (FDCE) to 'u_uart/u_tx/clk_count_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_uart/u_tx/clk_count_reg[12]' (FDCE) to 'u_uart/u_tx/clk_count_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_uart/u_tx/clk_count_reg[10]' (FDCE) to 'u_uart/u_tx/clk_count_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_uart/u_tx/clk_count_reg[11] )
+WARNING: [Synth 8-3332] Sequential element (u_uart/u_tx/clk_count_reg[11]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 788.504 ; gain = 501.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+---------------+-----------+----------------------+------------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives       | 
++------------+---------------+-----------+----------------------+------------------+
+|top         | dp/rf/rf_reg  | Implied   | 32 x 32              | RAM32M x 12      | 
+|top         | u_ram/RAM_reg | Implied   | 256 x 32             | RAM256X1S x 32   | 
++------------+---------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 788.504 ; gain = 501.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:41 . Memory (MB): peak = 788.504 ; gain = 501.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+---------------+-----------+----------------------+------------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives       | 
++------------+---------------+-----------+----------------------+------------------+
+|top         | dp/rf/rf_reg  | Implied   | 32 x 32              | RAM32M x 12      | 
+|top         | u_ram/RAM_reg | Implied   | 256 x 32             | RAM256X1S x 32   | 
++------------+---------------+-----------+----------------------+------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:42 . Memory (MB): peak = 830.027 ; gain = 543.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 830.027 ; gain = 543.070
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 830.027 ; gain = 543.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 830.027 ; gain = 543.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 830.027 ; gain = 543.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 830.027 ; gain = 543.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 830.027 ; gain = 543.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |fir_compiler_0 |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |fir_compiler_0 |     1|
+|2     |BUFG           |     1|
+|3     |CARRY4         |    12|
+|4     |LUT1           |     1|
+|5     |LUT2           |    46|
+|6     |LUT3           |    59|
+|7     |LUT4           |    89|
+|8     |LUT5           |   197|
+|9     |LUT6           |   402|
+|10    |MUXF7          |    19|
+|11    |RAM256X1S      |    32|
+|12    |RAM32M         |    12|
+|13    |FDCE           |   105|
+|14    |FDPE           |     1|
+|15    |FDRE           |   235|
+|16    |FDSE           |     1|
+|17    |IBUF           |     3|
+|18    |OBUF           |     1|
++------+---------------+------+
+
+Report Instance Areas: 
++------+---------------+--------------------+------+
+|      |Instance       |Module              |Cells |
++------+---------------+--------------------+------+
+|1     |top            |                    |  1250|
+|2     |  ctrl         |controller          |   239|
+|3     |  dp           |datapath            |   754|
+|4     |    alu        |ALU                 |     8|
+|5     |    aluout_reg |register_simple     |    32|
+|6     |    data_reg   |register_simple_0   |    32|
+|7     |    instr_reg  |register_en         |   292|
+|8     |    oldpc_reg  |register_en_1       |   262|
+|9     |    pcreg      |register_en_2       |    52|
+|10    |    reg_a      |register_simple_3   |    32|
+|11    |    reg_b      |register_simple_4   |    32|
+|12    |    rf         |register_file       |    12|
+|13    |  u_fir        |fir_accelerator_top |    84|
+|14    |  u_ram        |memorys             |    32|
+|15    |  u_uart       |uart_top            |   136|
+|16    |    u_rx       |uart_rx             |    82|
+|17    |    u_tx       |uart_tx             |    53|
++------+---------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 830.027 ; gain = 543.070
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 42 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 830.027 ; gain = 193.316
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 830.027 ; gain = 543.070
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 78 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 44 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+87 Infos, 83 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:46 . Memory (MB): peak = 830.027 ; gain = 554.555
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/Vivado _projects/RISC-V/DSD_Capstone/MultiCycle.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 830.027 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Sep  1 11:56:21 2026...

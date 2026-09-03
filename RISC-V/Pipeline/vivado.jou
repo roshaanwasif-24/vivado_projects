@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun 25 00:39:14 2026
+# Process ID: 19864
+# Current directory: D:/Vivado _projects/RISC-V/Pipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5700 D:\Vivado _projects\RISC-V\Pipeline\Pipeline.xpr
+# Log file: D:/Vivado _projects/RISC-V/Pipeline/vivado.log
+# Journal file: D:/Vivado _projects/RISC-V/Pipeline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado _projects/RISC-V/Pipeline/Pipeline.xpr}
+update_compile_order -fileset sources_1
+save_project_as pipeline_complete {D:/Vivado _projects/RISC-V/pipeline_complete} -force
